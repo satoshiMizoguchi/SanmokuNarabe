@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reset"
+        android:orderInCategory="0"
+        app:showAsAction="never"
+        android:title="リセットして開始"/>
+    <item
+        android:id="@+id/conti"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="継続"/>
+
+    <item
+        android:id="@+id/vsCom"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="コンピュータと対戦開始"/>
+
+    <item
+        android:id="@+id/mainmenu"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="メインメニューへ"/>
+    <item
+        android:id="@+id/database"
+        android:orderInCategory="4"
+        app:showAsAction="never"
+        android:title="対局結果へ"/>
+</menu>
